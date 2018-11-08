@@ -10,7 +10,8 @@ Smart Plan is a web app that will allow users to list all the classes they are i
 The Smart Plan application will store users, lists, and courses
 
 * users can have multiple lists for each semester (via references)
-* each list can have multiple items (also by references)
+* each list can have multiple courses (also by references)
+
 An Example User:
 
 ```javascript
@@ -20,18 +21,26 @@ An Example User:
   lists: // an array of references to List documents
 }
 ```
-An Example List with Embedded Items:
+An Example List:
 
 ```javascript
 {
   user: // a reference to a User object
   name: "Spring 2019",
-  items: [
-    { name: "Applied Internet Technology", Days: "T/TR", recitation: false, Rank: 1},
-    { name: "Basic Algorithms", Days: "M/W", recitation: true, Rank: 2},
-  ],
+  courses: // an array of references to Course documents
 }
 ```
+An Example Course:
+
+```javascript
+{
+  list: // a reference to a list object,
+  name: "Science 101",
+  dates: "M/W",
+  rank: 1
+}
+```
+
 ## [Link to Commented First Draft Schema](db.js)
 
 ## Wireframes
