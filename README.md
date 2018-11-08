@@ -10,8 +10,7 @@ Smart Plan is a web app that will allow users to list all the classes they are i
 The Smart Plan application will store users, lists, and courses
 
 * users can have multiple lists for each semester (via references)
-* each list can have multiple items (by embedding)
-
+* each list can have multiple items (also by references)
 An Example User:
 
 ```javascript
@@ -62,17 +61,23 @@ An Example List with Embedded Items:
 2. as a user, I can log in to the site
 3. as a user, I can view all of the semester plans I've made in a single list
 4. as a user, I can add to the list of courses for a semester which will include name of course, dates, and rank
-5. as a user, I can filter the list based on the rank I assigned to a course
+5. as a user, I can filter the list of courses based on the rank I assigned to a course
 
 ## Research Topics
 
-* (5 points) Integrate user authentication
-    * Will use passport to authenticate user
-    * see <code>cs.nyu.edu/~jversoza/ait-final/register</code> for register page
-    * see <code>cs.nyu.edu/~jversoza/ait-final/login</code> for login page
-* (3 points) Perform client side form validation using PHP
-    * see <code>cs.nyu.edu/~jversoza/ait-final/my-form</code>
-    * if you put in a number that's greater than 5, an error message will appear in the dom
+* Integrate user authentication
+    * 4 points
+    * Will authenticate user which means we will use a middleware to make sure
+    the user is who they say they are
+    * Most likely using Passport
+* Use a CSS framework throughout your site
+    * 2 points
+    * Will use bootstrap to make all pages consistent
+    * Will also add mobile responsiveness
+* Perform client side form validation
+    * 2 points
+    * Will see if the user inputted the correct values for creating a semester and creating a course
+    * Will use custom javascript
     
 8 points total out of 8 required points
 
@@ -80,5 +85,4 @@ An Example List with Embedded Items:
 
 ## Annotations / References Used
 
-1. [passport.js authentication docs](http://passportjs.org/docs) - (add link to source code that was based on this)
-2. [PHP form validation](https://www.sitepoint.com/form-validation-with-php/) - (add link to source code that was based on this)
+1. Will add once code is written
