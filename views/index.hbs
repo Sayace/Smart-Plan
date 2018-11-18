@@ -1,2 +1,13 @@
-<a href="http://localhost:3000/login">LOGIN</a>
-<a href="http://localhost:3000/join">JOIN</a>
+<h1 class="cover-heading">SMART PLAN</h1>
+{{#if user}}
+<p class="lead">Welcome {{user.username}}</p>
+
+{{else}}
+<p class="lead">"In preparing for battle I have always found that plans are useless,
+  but planning is indispensable."</p>
+<p class="lead">-Dwight D. Eisenhower</p>
+<p class="lead">
+  <a href="register" class="btn btn-lg btn-default">Register</a>
+</p>
+
+{{/if}}

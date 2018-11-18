@@ -1,0 +1,23 @@
+<h2>Add New Courses</h2>
+{{#if message}}
+<div class="error">{{ message }}</div>
+{{/if}}
+<form method="POST" action="">
+	<div>
+		<label for="title">Course Name:</label>
+		<input type="text" id="name" name="name" value="">
+	</div>
+	<div>
+		<label for="title">Dates:</label>
+		<input type="text" id="dates" name="dates" value="">
+	</div>
+	<div>
+		<label for="rank">Rank:</label>
+		<input type="text" id="rank" name="rank" value="">
+	</div>
+	<div>
+		<label for="semester">Semester:</label>
+		<input type="text" id="semester" name="semester" value="">
+	</div>
+	<input class="btn btn-lg btn-default" type="submit" value="Add">
+</form>

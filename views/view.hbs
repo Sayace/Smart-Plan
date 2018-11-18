@@ -1,0 +1,23 @@
+<h2>Your Very Smart Plan</h2>
+<br>
+<br>
+<table style="width:100%">
+  <tr>
+    <th>Course</th>
+    <th>Dates</th>
+    <th>Rank</th>
+    <th>Semester</th>
+  </tr>
+  {{#each courses}}
+  <tr>
+    <td>{{name}}</td>
+    <td>{{dates}}</td>
+    <td>{{rank}}</td>
+    <td>{{semester}}</td>
+  </tr>
+  {{/each}}
+</table>
+
+<br>
+<br>
+<a href="add" class="btn btn-lg btn-default">Add Courses</a>
