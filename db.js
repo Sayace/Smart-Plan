@@ -60,4 +60,4 @@ mongoose.model("Courses", Course);
 
 //add the code that connects to the database. We'll connect to the local
 //instance of MongoDB, and we'll use a database called final-proj
-mongoose.connect('mongodb://localhost/final-proj');
+mongoose.connect('final-proj-mongodb');

@@ -103,7 +103,7 @@ app.post('/add', (req, res) => {
   });
 });
 
-//app.listen(3000);
+// from heroku tutorial
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;
