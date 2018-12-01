@@ -4,19 +4,16 @@
   {{#if message}}
   <div class="error">{{ message }}</div>
   {{/if}}
+  <div id="errorReg"></div>
   <form method="POST" action="register">
   	<div>
   		<label for="username">Username:</label>
-  		<input type="text" name="username" value="">
-  	</div>
-  	<div>
-  		<label for="email">Email:</label>
-  		<input type="email" name="email" value="">
+  		<input id="regUsername" type="text" name="username" value="">
   	</div>
   	<div>
   		<label for="password">Password:</label>
-  		<input type="password" name="password" value="">
+  		<input id="regUsername" type="password" name="password" value="">
   	</div>
-  	<div><input class="btn btn-lg btn-default" type="submit" value="Register"></div>
+  	<div><input  id="reg" class="btn btn-lg btn-default" type="submit" value="Register"></div>
   </form>
 </div>

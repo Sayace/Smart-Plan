@@ -87,7 +87,7 @@ An Example Course:
     * 2 points
     * Will see if the user inputted the correct values for creating a semester and creating a course
     * Will use custom javascript
-    
+
 8 points total out of 8 required points
 
 ## [Link to Initial Main Project File](app.js)

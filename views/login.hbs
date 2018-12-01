@@ -2,18 +2,20 @@
 {{#if message}}
 <div class="error">{{ message }}</div>
 {{/if}}
+
 <div class="lead">
   <form method="POST" action="login">
+    <div id="errorLog"></div>
   	<div>
   		<label for="username">Username:</label>
-  		<input type="text" name="username" value="">
+  		<input id="logUsername" type="text" name="username" value="" required>
   	</div>
   	<div>
   		<label for="password">Password:</label>
-  		<input type="password" name="password" value="">
+  		<input id="logPassword" type="password" name="password" value="" required>
   	</div>
   	<div>
-  		<input class="btn btn-lg btn-default" type="submit" value="Login">
+  		<input  id="loggin" class="btn btn-lg btn-default" type="submit" value="Login">
   	</div>
   </form>
 </div>

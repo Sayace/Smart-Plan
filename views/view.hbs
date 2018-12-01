@@ -1,17 +1,27 @@
+<br>
 <h2>Your Very Smart Plan</h2>
 <br>
+<div id="errorRank"></div>
+<form method="GET" action="">
+  Filter by rank: <input id="rankE" type="text" name="rank" method="get">
+  <input id="rankF" type="submit">
+</form>
+<br>
+<div id="errorSemester"></div>
+<form method="GET" action="">
+  Filter by semester: <input id="semesterE" type="text" name="semester" method="get">
+  <input  id="semesterF"  type="submit">
+</form>
 <br>
 <table style="width:100%">
   <tr>
     <th>Course</th>
-    <th>Dates</th>
     <th>Rank</th>
     <th>Semester</th>
   </tr>
   {{#each courses}}
   <tr>
     <td>{{name}}</td>
-    <td>{{dates}}</td>
     <td>{{rank}}</td>
     <td>{{semester}}</td>
   </tr>
@@ -21,3 +31,4 @@
 <br>
 <br>
 <a href="add" class="btn btn-lg btn-default">Add Courses</a>
+<br>
