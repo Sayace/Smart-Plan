@@ -78,3 +78,4 @@ An Example List:
 ## Annotations / References Used
 
 1. [Link to bootstrap template](https://getbootstrap.com/docs/3.3/examples/cover/)
+2. [Link to Passport website](http://www.passportjs.org/docs/)
