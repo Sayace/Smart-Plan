@@ -44,10 +44,7 @@ An Example List:
 /join - page to create account
 ![list](documentation/join.png)
 
-/view - display list of all semester plans already made
-![list](documentation/view.png)
-
-/view/semester - page for showing courses for a specific semester
+/view - page for showing courses for a semester
 ![list](documentation/view-semester.png)
 
 
