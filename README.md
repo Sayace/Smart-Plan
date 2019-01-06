@@ -34,6 +34,7 @@ An Example List:
 ## [Link to Schema](db.js)
 
 ## Wireframes
+Actual site looks different
 
 / - home page
 ![list](documentation/home.png)
@@ -59,19 +60,16 @@ An Example List:
 4. as a user, I can add to the list of courses which will include name of course, semester, and rank
 5. as a user, I can filter the list of courses based on the rank and semester
 
-## Research Topics
+## Goals
 
 * Integrate user authentication
-    * 6 points
     * Will authenticate user which means we will use a middleware to make sure
     the user is who they say they are
     * Used Passport
 * Use a CSS framework throughout your site
-    * 2 points
     * Will use bootstrap to make all pages consistent
     * Will also add mobile responsiveness
 
-8 points total out of 8 required points
 
 ## [Link to Main Project File](app.js)
 
